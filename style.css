@@ -1,0 +1,213 @@
+*{
+background: #E5E5E5;
+font-family: 'Inter';
+font-weight: 400;
+font-size: 32px;
+line-height: 150%
+
+}
+
+#logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 7%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    flex-wrap: wrap;
+}
+
+.txt-area{
+    border:none;
+    color: #0a3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{color: #0a3871;}
+    .txt-area:focus{
+    outline: none;
+}
+
+.lateral{
+    background: white;
+    width: 400px;
+    height: 600px;
+    left: 900px;
+    top:40px;
+    border-radius: 32px;
+  
+}
+
+.munieca{
+background-color: white;
+margin-left: 30px;
+margin-top: 40px;
+}
+
+#img-change{
+    width: 380px;
+    height: 280px;
+margin-left: 10px;
+margin-top: 10px;
+}
+
+.msj-found{
+    background-color: white;
+    width: 336px;
+    height: 38px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    align-self: stretch;
+    color: #343A40;
+    text-align: center;
+    margin-left: 40px; 
+}
+
+.mensaje{
+    background: white;
+    border: none;
+    border-radius: 24px;
+    color:#495057;
+    margin-left: 5px;
+    margin-top: 10px;
+  
+
+    width: 385px;
+    height: 140px;    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 50;
+font-size:16px;
+line-height: 120%;
+text-align: center;
+outline: none;
+
+}
+.botones{
+    display: flex;
+    margin-top: 18px;    
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+     border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar{
+background: #D8DFE8;
+border: 1px solid #0A3871;
+border-radius: 24px;
+color: #0A3871;
+cursor: pointer;
+height: 67px;
+margin-left: 30px;
+width: 328px;
+}
+
+.btn-copiar{
+border: 1px solid #0A3871;
+border-radius: 24px;
+color: #0A3871;
+cursor: pointer;
+height: 50px;
+margin-left: 50px;
+margin-top: 10px;
+width: 135px;
+font-size: 18px;
+}
+
+.informacion{
+    color: #495057;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+
+/* RESPONSIVE */
+@media(max-width:415px){
+
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10px
+    }
+
+.munieca{
+    display: none;
+}
+
+#logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 20%;
+}
+.txt-area{
+    border:none;
+    color: #0a3871;
+ padding: 0px;
+width: 340px;
+height: 48px;
+left: 16px;
+margin-top: 20PX;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+    text-transform: lowercase;
+ 
+}
+.informacion{
+    color: #495057;
+    width: 205px;
+    height: 18px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 50PX;
+    flex: none;
+   
+}
+.botones{
+    position: relative;
+    align-self: stretch;
+
+}
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 335px;
+    margin-left: 5px;
+ 
+}
+
+.btn-desencriptar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+  
+    margin-top: 100px;
+    }
+
+}
